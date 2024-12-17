@@ -1,0 +1,23 @@
+// 1 abstrac:variables,mixin
+@use "./abstracts/variables";
+@use "./abstracts/mixin";
+@use "./abstracts/general";
+
+// 2 base styles :reset.fonts
+
+@use "./base/reser";
+@use "./base/fonts";
+
+
+
+// 3 component : odatiy qayta ishlatishimiz mumkin bolgan narsalar
+
+@use "./component/container";
+@use "./component/header";
+
+// 4 pages : asosiy sahifalardagi maxsus stillar
+
+@use "./pages/home";
+@use "./pages/category";
+
+
