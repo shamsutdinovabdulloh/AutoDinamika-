@@ -1,0 +1,192 @@
+.top {
+    background-color: #000000;
+    color: white;
+}
+
+.top__out {
+}
+
+.top__inner {
+    padding: 17px;
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__menu-list {}
+
+.top__menu-list__text {}
+
+.p1 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.p2 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.p3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.p4 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.li1 {
+    position: relative;
+}
+
+.li1::before {
+    content: "";
+    background-image: url(/assets/Subtract.png);
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+}
+
+.li2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: space-between;
+}
+
+.li2::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-image: url(/assets/Subtract\ \(1\).png);
+    background-repeat: no-repeat;
+    left: -20px;
+}
+
+
+.help {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E2E2E2;
+}
+
+.li3 {
+    position: relative;
+}
+
+.li3::before {
+    content: "";
+    background-image: url(/assets/Subtract.svg);
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+}
+
+.li4 {}
+
+
+
+
+
+
+
+
+
+.header__inner-menu__list__foto{
+    display: none;
+}
+
+@media only screen and (max-width:733px){
+    .li1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:495px){
+    .li2{
+        display: none;
+    }
+}
+
+
+
+
+// ----------------------------------------------------------------------------------------//
+
+
+.header {}
+
+.container {}
+
+.header__out {}
+
+.header__inner {
+    padding-top: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__inner-img {
+    width: 146px;
+    height: 28px;
+}
+
+.header__inner-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 864px;
+}
+
+.header__inner-menu__list {}
+
+.header__inner-menu__list__link {
+    color: #424242;
+}
+
+
+
+@media only screen and (max-width:1050px){
+    .header__inner-menu__list__foto{
+        display: block;
+    }
+    .header__inner-menu__list__link {
+        display: none;
+    }
+}
