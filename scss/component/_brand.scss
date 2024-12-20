@@ -1,0 +1,48 @@
+.brand {}
+
+.container {}
+
+.brand__out {}
+
+.brand__inner {
+    padding-top: 30px;
+}
+
+.brand__h2 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
+
+.brand__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.brand__menu-list {
+    border: 1px solid grey;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.brand__menu-list__img {}
+
+.brand__menu-list__text {}
+
+.brend__btn {
+    background-color: #DC4433;
+    border: 1px solid grey;
+    padding: 20px 86px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
